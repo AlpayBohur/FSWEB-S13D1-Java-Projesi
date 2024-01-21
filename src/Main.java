@@ -46,11 +46,7 @@ public class Main {
                 return  clock < 8 || clock >= 20;
         }
 
-        public  static boolean hasTeen(int firstAge, int secondAge, int thirdAge){
-        return (firstAge >= 13 && firstAge <= 19)
-                || (secondAge >= 13 && secondAge <= 19)
-                || (thirdAge >= 13 && thirdAge <= 19);
-        }
+
 
 
     public static boolean hasTeen2(int... ages){
