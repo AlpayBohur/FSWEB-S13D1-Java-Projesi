@@ -8,6 +8,7 @@ public class Main {
         System.out.println("case 2" +shouldWakeUp(false,2));
         System.out.println("case 3" +shouldWakeUp(true,8));
         System.out.println("case 4" +shouldWakeUp(true,-1));
+        System.out.println("case 4" +shouldWakeUp(true,0));
 
         System.out.println("---------------------------------");
 
